@@ -1,4 +1,4 @@
-# RoboticaPoryectoCurso
+# Proyecto Final de Robotica
 
 Presentar la tabla de parametros DH del Phantom y explicar como se calculo y aplico la cinematica directa en la solucion, incluyendo resultados numericos que validen el calculo de la posicion y orientacion del efector final.
 Describir el proceso de calculo y aplicacion de la cinematica inversa para determinar los valores articulares a partir de una posicion objetivo, mostrando resultados numericos que evidencien la solucion obtenida.
