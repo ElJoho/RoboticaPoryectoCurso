@@ -118,7 +118,90 @@ Descripción, plano de planta y descripción detallada de la teleoperación de l
 
 # Código
 
-Código en Matlab o Python comentado y discutido del módulo utilizado para el desarrollo del proyecto.
+## Conexión de un Control de PS4 a ROS 2 y Lectura de Joystick/Botones
+
+Este repositorio explica cómo conectar un control de PlayStation 4 (PS4) a un sistema basado en ROS 2 para leer los valores de los joysticks y botones.
+
+### Requisitos
+
+Antes de comenzar, se debe contar con lo siguiente:
+- Un sistema con **ROS 2** instalado (Iron, Humble, o Foxy recomendado).
+- Un control de **PS4** (DualShock 4).
+- Un adaptador **Bluetooth** o cable USB.
+- Paquetes `joy` y `teleop_twist_joy` instalados en ROS 2:
+
+```bash
+sudo apt install ros-<distro>-joy ros-<distro>-teleop-twist-joy
+```
+(Reemplazar `<distro>` con la versión de ROS 2 que se esté utilizando, como `humble` o `foxy`).
+
+## Paso 1: Conectar el Control de PS4
+
+El control de PS4 se puede conectar de dos maneras:
+
+### Opción 1: Conexión por Bluetooth
+1. Se debe poner el control en modo de emparejamiento presionando los botones **PS** + **Share** hasta que la luz parpadee rápidamente.
+2. En el PC, ejecutar:
+   ```bash
+   bluetoothctl
+   ```
+3. Luego, en la consola de `bluetoothctl`, escribir:
+   ```bash
+   scan on
+   ```
+   y buscar la dirección MAC del control (ejemplo: `XX:XX:XX:XX:XX:XX`).
+4. Conectar con:
+   ```bash
+   pair XX:XX:XX:XX:XX:XX
+   connect XX:XX:XX:XX:XX:XX
+   trust XX:XX:XX:XX:XX:XX
+   ```
+5. Salir del modo interactivo escribiendo:
+   ```bash
+   exit
+   ```
+
+### Opción 2: Conexión por USB
+El control se conectó por medio de un cable USB al PC.
+
+## Paso 2: Lanzar el Nodo `joy`
+
+Para comenzar a leer los datos del control, se debe ejecutar el siguiente comando:
+```bash
+ros2 launch teleop_twist_joy teleop-launch.py joy_config:='ps3'
+```
+⚠️ **Nota:** Aunque el control es un PS4, el argumento `ps3` es el que mejor funciona en muchas configuraciones de ROS 2.
+
+Este comando inicia el nodo `joy_node`, que captura la información de los botones y joysticks.
+
+## Paso 3: Leer los Datos del Control
+Para visualizar los valores del joystick y los botones en tiempo real, se debe ejecutar:
+```bash
+ros2 topic echo /joy
+```
+Este comando mostrará un mensaje con la siguiente estructura:
+```yaml
+header:
+  stamp:
+    sec: 123456
+    nanosec: 789000000
+  frame_id: ''
+axes: [0.0, 0.0, -1.0, 0.0, 0.0, 0.0]
+buttons: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+```
+- `axes`: Valores de los joysticks.
+- `buttons`: Estado de los botones (1 = presionado, 0 = no presionado).
+
+## Paso 4: Detener el Nodo
+Para detener la lectura del control, se debe usar:
+```bash
+Ctrl + C
+```
+Esto cerrará el nodo de ROS 2.
+
+## Referencias
+- [Documentación oficial de joy para ROS 2](https://docs.ros.org/en/iron/p/joy/)
+- [Teleop Twist Joy](https://github.com/ros2/teleop_twist_joy)
 
 # Comparación de la Teleoperación Manual y Automática
 
