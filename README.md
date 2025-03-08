@@ -7,7 +7,7 @@
 - Johan López
 
 ## Modelo
-
+![Esquema Phantom](esquemaPhantom1.png)
 # Cinemática Directa
 
 ## Tabla de parámetros DH del Phantom
@@ -20,6 +20,9 @@
 | 4    | 0   | L4 | 0  | q4 | 0      |
 
 ## Visualización en Matlab
+
+![Matlab Phantom](matlabPhantom1.png)
+![Inversa](INVERSA.jpg)
 
 ### Código
 
