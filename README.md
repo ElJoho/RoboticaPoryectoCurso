@@ -22,8 +22,6 @@
 ## Visualización en Matlab
 
 ![Matlab Phantom](matlabPhantom1.png)
-![Inversa](INVERSA.jpg)
-
 ### Código
 
 ```matlab
@@ -49,6 +47,8 @@ PhantomX.teach()
 _Incluyendo resultados numéricos que validen el cálculo de la posición y orientación del efector final._
 
 ## Cinemática Inversa
+
+![Inversa](INVERSA.jpg)
 
 Describir el proceso de cálculo y aplicación de la cinemática inversa para determinar los valores articulares a partir de una posición objetivo, mostrando resultados numéricos que evidencien la solución obtenida.
 
