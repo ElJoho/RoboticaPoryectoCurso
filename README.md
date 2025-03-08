@@ -50,7 +50,61 @@ _Incluyendo resultados numéricos que validen el cálculo de la posición y orie
 
 ![Inversa](INVERSA.jpg)
 
-Describir el proceso de cálculo y aplicación de la cinemática inversa para determinar los valores articulares a partir de una posición objetivo, mostrando resultados numéricos que evidencien la solución obtenida.
+Matriz de Transformación Homogénea
+
+```math
+T_T = \begin{bmatrix} n_x & o_x & a_x & x_T \\ n_y & o_y & a_y & y_T \\ n_z & o_z & a_z & z_T \\ 0 & 0 & 0 & 1 \end{bmatrix}
+```
+
+donde \( x_T, y_T, z_T \) representan la posición del efector final y la orientación está dada por los vectores de la matriz de rotación.
+   
+El primer ángulo $q_1$ se obtiene a partir de la proyección de la posición del efector final en el plano XY:
+
+```math
+q_1 = \text{atan2}(y_T, x_T)
+```
+  
+Dado que el robot cuenta con un efector final con orientación determinada, se calcula la posición de la muñeca restando la contribución del último eslabón:
+
+```math
+PosW = \begin{bmatrix} x_W \\ y_W \\ z_W \end{bmatrix} = \begin{bmatrix} x_T \\ y_T \\ z_T \end{bmatrix} - l_4 \begin{bmatrix} a_x \\ a_y \\ a_z \end{bmatrix}
+```
+
+donde $l_4$ es la longitud del último eslabón.
+
+Se define la distancia radial \( r \) y la altura \( h \) de la muñeca respecto a la base:
+
+```math
+r = \sqrt{x_W^2 + y_W^2}, \quad h = z_W - l_1
+```
+
+```math
+\theta_3 = \cos^{-1} \left( \frac{r^2 + h^2 - l_2^2 - l_3^2}{2 l_2 l_3} \right)
+```
+
+El ángulo $q_2$ se determina considerando la geometría del sistema:
+
+```math
+q_2 = -\frac{\pi}{2} + \text{atan2}(h, r) - \text{atan2}(l_3 \sin(\theta_3), l_2 + l_3 \cos(\theta_3))
+```
+
+El ángulo $q_3$ está dado por:
+
+```math
+q_3 = \theta_3
+```
+
+Se utiliza la matriz de rotación del efector para determinar el ángulo de pitch:
+
+```math
+pitch = \text{atan2}(R_{31}, R_{11})
+```
+
+Finalmente, el ángulo de la muñeca se obtiene como:
+
+```math
+q_4 = pitch - q_2 - q_3
+```
 
 ## Solución Creada
 
