@@ -1,0 +1,41 @@
+[0.306s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_description': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_description -- -j4 -l4
+[0.617s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_description' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_description -- -j4 -l4
+[0.655s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_description': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_description
+[0.797s] -- Install configuration: ""
+[0.798s] -- Execute custom install script
+[0.798s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//launch/viz_launch.py
+[0.799s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/arm_hardware.xacro
+[0.799s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_arm.urdf
+[0.800s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_arm.urdf.xacro
+[0.800s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_gripper.xacro
+[0.800s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.urdf
+[0.801s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.urdf.xacro
+[0.801s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.xacro
+[0.802s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_gripper.xacro
+[0.802s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//config/rviz_viz.rviz
+[0.804s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F10.stl
+[0.804s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F2.stl
+[0.805s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F3.stl
+[0.805s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F4.stl
+[0.805s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/README
+[0.806s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/ax12_box.stl
+[0.806s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/mount.stl
+[0.807s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/pincher_finger.stl
+[0.808s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/pincher_finger_base.stl
+[0.809s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtlebot_finger.stl
+[0.809s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/ament_index/resource_index/package_run_dependencies/phantom_description
+[0.810s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/ament_index/resource_index/parent_prefix_path/phantom_description
+[0.811s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/ament_prefix_path.sh
+[0.811s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/ament_prefix_path.dsv
+[0.812s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/path.sh
+[0.813s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/path.dsv
+[0.813s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.bash
+[0.814s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.sh
+[0.815s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.zsh
+[0.815s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.dsv
+[0.816s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.dsv
+[0.849s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/ament_index/resource_index/packages/phantom_description
+[0.850s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/cmake/phantom_descriptionConfig.cmake
+[0.851s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/cmake/phantom_descriptionConfig-version.cmake
+[0.852s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.xml
+[0.859s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_description' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_description

@@ -1,0 +1,1 @@
+/home/johanito/Documents/phantom_ws/src/phantom_control/launch/bringup_launch.py

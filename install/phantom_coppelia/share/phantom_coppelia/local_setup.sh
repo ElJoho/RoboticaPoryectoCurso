@@ -1,0 +1,1 @@
+/home/johanito/Documents/phantom_ws/build/phantom_coppelia/ament_cmake_environment_hooks/local_setup.sh

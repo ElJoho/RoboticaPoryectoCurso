@@ -1,0 +1,70 @@
+[0.133s] Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk
+[3.318s] -- The C compiler identification is GNU 11.4.0
+[5.248s] -- The CXX compiler identification is GNU 11.4.0
+[5.599s] -- Detecting C compiler ABI info
+[6.130s] -- Detecting C compiler ABI info - done
+[6.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.172s] -- Detecting C compile features
+[6.271s] -- Detecting C compile features - done
+[6.464s] -- Detecting CXX compiler ABI info
+[7.046s] -- Detecting CXX compiler ABI info - done
+[7.082s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.083s] -- Detecting CXX compile features
+[7.084s] -- Detecting CXX compile features - done
+[7.143s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.083s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.949s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.883s] -- Configuring done
+[9.976s] -- Generating done
+[9.996s] -- Build files have been written to: /home/johanito/Documents/phantom_ws/build/dynamixel_sdk
+[10.021s] Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk
+[10.024s] Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk -- -j4 -l4
+[10.194s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[10.194s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[10.200s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[10.200s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[12.372s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[12.562s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[12.933s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[15.355s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[15.396s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[16.722s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[17.322s] [100%] Built target dynamixel_sdk
+[17.393s] Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk -- -j4 -l4
+[17.459s] Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk
+[17.509s] -- Install configuration: ""
+[17.509s] -- Execute custom install script
+[17.510s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[17.553s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[17.584s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[17.633s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[17.683s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[17.732s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[17.767s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[17.799s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[17.832s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[17.866s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[17.902s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[17.939s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[17.974s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[18.010s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[18.059s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[18.123s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[18.156s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[18.189s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[18.226s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[18.265s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[18.304s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[18.339s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[18.371s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[18.401s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[18.431s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[18.463s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[18.498s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[18.538s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[18.569s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.601s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[18.634s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[18.667s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[18.700s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[18.742s] Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk

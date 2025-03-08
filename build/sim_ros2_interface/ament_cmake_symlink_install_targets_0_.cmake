@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/johanito/Documents/phantom_ws/build/sim_ros2_interface/libsimROS2.so" "TARGETS" "simROS2" "DESTINATION" "/home/johanito/Documents/coppeliasim")

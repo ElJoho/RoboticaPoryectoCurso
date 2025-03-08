@@ -1,0 +1,65 @@
+[0.177s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/phantom_coppelia -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/phantom_coppelia
+[3.215s] -- The C compiler identification is GNU 11.4.0
+[5.143s] -- The CXX compiler identification is GNU 11.4.0
+[5.499s] -- Detecting C compiler ABI info
+[6.028s] -- Detecting C compiler ABI info - done
+[6.070s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.071s] -- Detecting C compile features
+[6.161s] -- Detecting C compile features - done
+[6.364s] -- Detecting CXX compiler ABI info
+[6.822s] -- Detecting CXX compiler ABI info - done
+[6.900s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.910s] -- Detecting CXX compile features
+[6.911s] -- Detecting CXX compile features - done
+[7.038s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.931s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.817s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.227s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[9.429s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.687s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.877s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.601s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.697s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.096s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.461s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.504s] -- Looking for pthread.h
+[16.125s] -- Looking for pthread.h - found
+[16.134s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.576s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.593s] -- Found Threads: TRUE  
+[17.035s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[17.211s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.851s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.851s] -- Added test 'lint_cmake' to check CMake code style
+[17.854s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.897s] -- Added test 'xmllint' to check XML markup files
+[17.906s] -- Configuring done
+[17.936s] -- Generating done
+[17.953s] -- Build files have been written to: /home/johanito/Documents/phantom_ws/build/phantom_coppelia
+[18.004s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/phantom_coppelia -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/phantom_coppelia
+[18.008s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+[18.173s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+[18.182s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia
+[18.213s] -- Install configuration: ""
+[18.215s] -- Execute custom install script
+[18.218s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//launch/bringup_launch.py
+[18.252s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//scenes/spheres.ttt
+[18.284s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/package_run_dependencies/phantom_coppelia
+[18.315s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/parent_prefix_path/phantom_coppelia
+[18.346s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.sh
+[18.381s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.dsv
+[18.413s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.sh
+[18.448s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.dsv
+[18.485s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.bash
+[18.515s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.sh
+[18.548s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.zsh
+[18.580s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.dsv
+[18.613s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv
+[18.645s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/packages/phantom_coppelia
+[18.676s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig.cmake
+[18.706s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig-version.cmake
+[18.736s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.xml
+[19.447s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia

@@ -1,0 +1,32 @@
+[0.491s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+[2.022s] [100%] Built target phantom_control
+[2.072s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+[2.173s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control
+[2.261s] -- Install configuration: ""
+[2.287s] -- Execute custom install script
+[2.320s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//phantom_control.xml
+[2.351s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/topic_based_system.hpp
+[2.355s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//launch/bringup_launch.py
+[2.361s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//config/phantom_controllers.yaml
+[2.367s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/topic_based_system.hpp
+[2.371s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//hardware/topic_based_system.cpp
+[2.376s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//description/phantom.ros2_control.xacro
+[2.380s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/package_run_dependencies/phantom_control
+[2.385s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/parent_prefix_path/phantom_control
+[2.388s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.sh
+[2.390s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.dsv
+[2.393s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/path.sh
+[2.394s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/path.dsv
+[2.394s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.bash
+[2.394s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.sh
+[2.395s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.zsh
+[2.433s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.dsv
+[2.435s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.dsv
+[2.479s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/packages/phantom_control
+[2.481s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/phantom_control
+[2.485s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.489s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig.cmake
+[2.492s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig-version.cmake
+[2.497s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.xml
+[2.538s] -- Up-to-date: /home/johanito/Documents/phantom_ws/install/phantom_control/lib/libphantom_control.so
+[2.547s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control

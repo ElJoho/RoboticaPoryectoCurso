@@ -1,0 +1,4 @@
+Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia
+Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia

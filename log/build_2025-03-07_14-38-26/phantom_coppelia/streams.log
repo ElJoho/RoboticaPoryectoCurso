@@ -1,0 +1,23 @@
+[0.496s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+[1.742s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+[1.990s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia
+[2.095s] -- Install configuration: ""
+[2.130s] -- Execute custom install script
+[2.282s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//launch/bringup_launch.py
+[2.293s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia//scenes/spheres.ttt
+[2.294s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/package_run_dependencies/phantom_coppelia
+[2.295s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/parent_prefix_path/phantom_coppelia
+[2.295s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.sh
+[2.296s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/ament_prefix_path.dsv
+[2.297s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.sh
+[2.298s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/environment/path.dsv
+[2.299s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.bash
+[2.300s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.sh
+[2.300s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.zsh
+[2.301s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/local_setup.dsv
+[2.302s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv
+[2.339s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/ament_index/resource_index/packages/phantom_coppelia
+[2.340s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig.cmake
+[2.340s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/cmake/phantom_coppeliaConfig-version.cmake
+[2.341s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.xml
+[2.347s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia

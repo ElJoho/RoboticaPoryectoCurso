@@ -1,0 +1,10 @@
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/uninstall.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/phantom_control_uninstall.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/phantom_control.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/test.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/edit_cache.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/rebuild_cache.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/list_install_components.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/install.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/install/local.dir
+/home/johanito/Documents/phantom_ws/build/phantom_control/CMakeFiles/install/strip.dir

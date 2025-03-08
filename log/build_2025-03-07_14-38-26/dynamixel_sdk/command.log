@@ -1,0 +1,4 @@
+Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk -- -j4 -l4
+Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk -- -j4 -l4
+Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk
+Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk

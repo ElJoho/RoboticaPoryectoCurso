@@ -1,0 +1,11 @@
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/uninstall.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/teleop_twist_joy_uninstall.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/teleop_twist_joy.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/teleop_twist_joy_node.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/test.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/edit_cache.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/rebuild_cache.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/list_install_components.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/install.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/install/local.dir
+/home/johanito/Documents/phantom_ws/build/teleop_twist_joy/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control
+Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control

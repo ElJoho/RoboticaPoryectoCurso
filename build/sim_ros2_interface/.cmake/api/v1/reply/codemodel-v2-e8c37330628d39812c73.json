@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-13047a29083a1354e8b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sim_ros2_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_ros_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_ros_code-5b09b240cebd4370e688.json",
+					"name" : "generate_ros_code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simROS2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simROS2-1c583ecd7f4a002ab2a9.json",
+					"name" : "simROS2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sim_ros2_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sim_ros2_interface_uninstall-4b38dd7a02b91d2b42ce.json",
+					"name" : "sim_ros2_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ec8b50035d263ebc583.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/johanito/Documents/phantom_ws/build/sim_ros2_interface",
+		"source" : "/home/johanito/Documents/phantom_ws/src/sim_ros2_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

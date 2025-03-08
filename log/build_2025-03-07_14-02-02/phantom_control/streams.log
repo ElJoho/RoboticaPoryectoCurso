@@ -1,0 +1,86 @@
+[0.182s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/phantom_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/phantom_control
+[3.214s] -- The C compiler identification is GNU 11.4.0
+[5.160s] -- The CXX compiler identification is GNU 11.4.0
+[5.505s] -- Detecting C compiler ABI info
+[6.056s] -- Detecting C compiler ABI info - done
+[6.091s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.091s] -- Detecting C compile features
+[6.181s] -- Detecting C compile features - done
+[6.381s] -- Detecting CXX compiler ABI info
+[6.874s] -- Detecting CXX compiler ABI info - done
+[6.947s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.949s] -- Detecting CXX compile features
+[6.949s] -- Detecting CXX compile features - done
+[7.013s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[8.011s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.834s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.446s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.707s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.895s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.384s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.185s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[14.203s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.435s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[14.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.736s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[14.847s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.878s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[14.921s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[14.970s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.525s] -- Looking for pthread.h
+[16.133s] -- Looking for pthread.h - found
+[16.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.626s] -- Found Threads: TRUE  
+[17.218s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[17.272s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[17.341s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.867s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.870s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johanito/Documents/phantom_ws/src/phantom_control/hardware/include>
+[17.870s] -- Configured cppcheck exclude dirs and/or files: 
+[17.871s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.874s] -- Added test 'lint_cmake' to check CMake code style
+[17.876s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.903s] -- Added test 'uncrustify' to check C / C++ code style
+[17.908s] -- Configured uncrustify additional arguments: 
+[17.910s] -- Added test 'xmllint' to check XML markup files
+[17.952s] -- Configuring done
+[20.242s] -- Generating done
+[20.287s] -- Build files have been written to: /home/johanito/Documents/phantom_ws/build/phantom_control
+[20.370s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/phantom_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/phantom_control
+[20.378s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+[20.621s] [ 50%] [32mBuilding CXX object CMakeFiles/phantom_control.dir/hardware/topic_based_system.cpp.o[0m
+[77.345s] [100%] [32m[1mLinking CXX shared library libphantom_control.so[0m
+[83.053s] [100%] Built target phantom_control
+[83.209s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+[83.374s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control
+[83.449s] -- Install configuration: ""
+[83.468s] -- Execute custom install script
+[83.470s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//phantom_control.xml
+[83.512s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/topic_based_system.hpp
+[83.558s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//launch/bringup_launch.py
+[83.605s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//config/phantom_controllers.yaml
+[83.645s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/topic_based_system.hpp
+[83.698s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//hardware/topic_based_system.cpp
+[83.759s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//description/phantom.ros2_control.xacro
+[83.819s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/package_run_dependencies/phantom_control
+[83.858s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/parent_prefix_path/phantom_control
+[83.895s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.sh
+[83.934s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.dsv
+[83.980s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/path.sh
+[84.014s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/path.dsv
+[84.052s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.bash
+[84.089s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.sh
+[84.123s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.zsh
+[84.153s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.dsv
+[84.200s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.dsv
+[84.278s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/packages/phantom_control
+[84.318s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/phantom_control
+[84.349s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[84.382s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig.cmake
+[84.411s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig-version.cmake
+[84.446s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.xml
+[84.478s] -- Installing: /home/johanito/Documents/phantom_ws/install/phantom_control/lib/libphantom_control.so
+[84.520s] -- Set runtime path of "/home/johanito/Documents/phantom_ws/install/phantom_control/lib/libphantom_control.so" to ""
+[84.533s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control

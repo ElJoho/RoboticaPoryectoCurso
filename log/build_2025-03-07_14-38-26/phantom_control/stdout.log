@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target phantom_control[0m
+[100%] Built target phantom_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//phantom_control.xml
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/include/phantom_control/phantom_control/topic_based_system.hpp
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//launch/bringup_launch.py
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//config/phantom_controllers.yaml
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//hardware/include/phantom_control/topic_based_system.hpp
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//hardware/topic_based_system.cpp
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control//description/phantom.ros2_control.xacro
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/package_run_dependencies/phantom_control
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/parent_prefix_path/phantom_control
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/path.sh
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/environment/path.dsv
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.bash
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.sh
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.zsh
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/local_setup.dsv
+-- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.dsv
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/packages/phantom_control
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/phantom_control
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig.cmake
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/cmake/phantom_controlConfig-version.cmake
+-- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.xml
+-- Up-to-date: /home/johanito/Documents/phantom_ws/install/phantom_control/lib/libphantom_control.so

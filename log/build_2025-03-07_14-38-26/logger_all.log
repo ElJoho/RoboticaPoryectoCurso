@@ -1,0 +1,580 @@
+[4.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[4.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c375770ba60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c37578b9480>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c37578b9480>>, mixin_verb=('build',))
+[8.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.083s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/johanito/Documents/phantom_ws'
+[8.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.268s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.270s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.274s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[8.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[8.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[8.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[8.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[8.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[8.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[8.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[8.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[8.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[8.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[8.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[8.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[8.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[8.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[8.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[8.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[8.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[8.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[8.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[8.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[8.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[8.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[8.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[8.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[8.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[8.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[8.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[8.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[8.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[8.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[8.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[8.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[8.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[8.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[8.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[8.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[8.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[8.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[8.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[8.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[8.412s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[8.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extensions ['ignore', 'ignore_ament_install']
+[8.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'ignore'
+[8.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'ignore_ament_install'
+[8.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extensions ['colcon_pkg']
+[8.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'colcon_pkg'
+[8.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extensions ['colcon_meta']
+[8.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'colcon_meta'
+[8.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extensions ['ros']
+[8.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'ros'
+[8.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extensions ['cmake', 'python']
+[8.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'cmake'
+[8.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'python'
+[8.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extensions ['python_setup_py']
+[8.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/docs) by extension 'python_setup_py'
+[8.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extensions ['ignore', 'ignore_ament_install']
+[8.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extension 'ignore'
+[8.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extension 'ignore_ament_install'
+[8.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extensions ['colcon_pkg']
+[8.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extension 'colcon_pkg'
+[8.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extensions ['colcon_meta']
+[8.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extension 'colcon_meta'
+[8.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extensions ['ros']
+[8.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_control) by extension 'ros'
+[8.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/phantom_control' with type 'ros.ament_cmake' and name 'phantom_control'
+[8.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extensions ['ignore', 'ignore_ament_install']
+[8.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extension 'ignore'
+[8.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extension 'ignore_ament_install'
+[8.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extensions ['colcon_pkg']
+[8.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extension 'colcon_pkg'
+[8.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extensions ['colcon_meta']
+[8.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extension 'colcon_meta'
+[8.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extensions ['ros']
+[8.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_coppelia) by extension 'ros'
+[8.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/phantom_coppelia' with type 'ros.ament_cmake' and name 'phantom_coppelia'
+[8.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extensions ['ignore', 'ignore_ament_install']
+[8.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extension 'ignore'
+[8.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extension 'ignore_ament_install'
+[8.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extensions ['colcon_pkg']
+[8.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extension 'colcon_pkg'
+[8.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extensions ['colcon_meta']
+[8.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extension 'colcon_meta'
+[8.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extensions ['ros']
+[8.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/phantom_description) by extension 'ros'
+[8.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/phantom_description' with type 'ros.ament_cmake' and name 'phantom_description'
+[8.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[8.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore'
+[8.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore_ament_install'
+[8.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_pkg']
+[8.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_pkg'
+[8.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_meta']
+[8.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_meta'
+[8.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ros']
+[8.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ros'
+[8.524s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_joy' with type 'ros.ament_cmake' and name 'teleop_twist_joy'
+[8.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[9.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.171s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[9.172s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.172s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': True, 'test_result_base': None}
+[9.174s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[9.174s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[9.175s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.175s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[9.175s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[9.175s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[9.175s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[9.175s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[9.175s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.175s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[9.177s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'cmake_args' from command line to 'None'
+[9.177s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'cmake_target' from command line to 'None'
+[9.177s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.177s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'cmake_clean_cache' from command line to 'False'
+[9.177s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'cmake_clean_first' from command line to 'False'
+[9.178s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'cmake_force_configure' from command line to 'False'
+[9.178s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'ament_cmake_args' from command line to 'None'
+[9.178s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'catkin_cmake_args' from command line to 'None'
+[9.178s] Level 5:colcon.colcon_core.verb:set package 'phantom_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.178s] DEBUG:colcon.colcon_core.verb:Building package 'phantom_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johanito/Documents/phantom_ws/build/phantom_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johanito/Documents/phantom_ws/install/phantom_control', 'merge_install': False, 'path': '/home/johanito/Documents/phantom_ws/src/phantom_control', 'symlink_install': True, 'test_result_base': None}
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'cmake_args' from command line to 'None'
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'cmake_target' from command line to 'None'
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'cmake_clean_cache' from command line to 'False'
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'cmake_clean_first' from command line to 'False'
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'cmake_force_configure' from command line to 'False'
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'ament_cmake_args' from command line to 'None'
+[9.180s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'catkin_cmake_args' from command line to 'None'
+[9.181s] Level 5:colcon.colcon_core.verb:set package 'phantom_coppelia' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.181s] DEBUG:colcon.colcon_core.verb:Building package 'phantom_coppelia' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johanito/Documents/phantom_ws/build/phantom_coppelia', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johanito/Documents/phantom_ws/install/phantom_coppelia', 'merge_install': False, 'path': '/home/johanito/Documents/phantom_ws/src/phantom_coppelia', 'symlink_install': True, 'test_result_base': None}
+[9.182s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'cmake_args' from command line to 'None'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'cmake_target' from command line to 'None'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'cmake_clean_cache' from command line to 'False'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'cmake_clean_first' from command line to 'False'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'cmake_force_configure' from command line to 'False'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'ament_cmake_args' from command line to 'None'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'catkin_cmake_args' from command line to 'None'
+[9.183s] Level 5:colcon.colcon_core.verb:set package 'phantom_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.184s] DEBUG:colcon.colcon_core.verb:Building package 'phantom_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johanito/Documents/phantom_ws/build/phantom_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johanito/Documents/phantom_ws/install/phantom_description', 'merge_install': False, 'path': '/home/johanito/Documents/phantom_ws/src/phantom_description', 'symlink_install': True, 'test_result_base': None}
+[9.185s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_args' from command line to 'None'
+[9.185s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target' from command line to 'None'
+[9.186s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.186s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[9.186s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_first' from command line to 'False'
+[9.186s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_force_configure' from command line to 'False'
+[9.186s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'ament_cmake_args' from command line to 'None'
+[9.186s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[9.186s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.186s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy', 'merge_install': False, 'path': '/home/johanito/Documents/phantom_ws/src/teleop_twist_joy', 'symlink_install': True, 'test_result_base': None}
+[9.188s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[9.188s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[9.188s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.188s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[9.188s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[9.189s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[9.189s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[9.189s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[9.189s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.189s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': True, 'test_result_base': None}
+[9.189s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.195s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[9.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk'
+[9.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[9.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[9.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johanito/Documents/phantom_ws/src/phantom_control' with build type 'ament_cmake'
+[9.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johanito/Documents/phantom_ws/src/phantom_control'
+[9.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johanito/Documents/phantom_ws/src/phantom_coppelia' with build type 'ament_cmake'
+[9.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johanito/Documents/phantom_ws/src/phantom_coppelia'
+[9.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk -- -j4 -l4
+[9.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[9.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+[9.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+[11.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_coppelia -- -j4 -l4
+[11.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia
+[11.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk -- -j4 -l4
+[11.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk
+[11.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantom_coppelia)
+[11.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_coppelia' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_coppelia
+[11.963s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia' for CMake module files
+[11.971s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia' for CMake config files
+[11.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_coppelia', 'cmake_prefix_path')
+[11.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.ps1'
+[12.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.dsv'
+[12.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.sh'
+[12.025s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/bin'
+[12.026s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/lib/pkgconfig/phantom_coppelia.pc'
+[12.057s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/lib/python3.10/site-packages'
+[12.058s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/bin'
+[12.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.ps1'
+[12.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv'
+[12.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.sh'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.bash'
+[12.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.zsh'
+[12.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/colcon-core/packages/phantom_coppelia)
+[12.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantom_coppelia)
+[12.144s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia' for CMake module files
+[12.147s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia' for CMake config files
+[12.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_coppelia', 'cmake_prefix_path')
+[12.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.ps1'
+[12.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.dsv'
+[12.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/hook/cmake_prefix_path.sh'
+[12.156s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/bin'
+[12.156s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/lib/pkgconfig/phantom_coppelia.pc'
+[12.157s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/lib/python3.10/site-packages'
+[12.158s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/bin'
+[12.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.ps1'
+[12.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.dsv'
+[12.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.sh'
+[12.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.bash'
+[12.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/phantom_coppelia/package.zsh'
+[12.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/phantom_coppelia/share/colcon-core/packages/phantom_coppelia)
+[12.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johanito/Documents/phantom_ws/src/phantom_description' with build type 'ament_cmake'
+[12.211s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johanito/Documents/phantom_ws/src/phantom_description'
+[12.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[12.222s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk' for CMake module files
+[12.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk
+[12.227s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk' for CMake config files
+[12.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[12.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[12.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[12.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[12.235s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib'
+[12.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[12.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[12.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[12.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/bin'
+[12.249s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[12.250s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[12.251s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/bin'
+[12.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[12.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[12.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[12.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[12.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[12.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[12.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[12.268s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk' for CMake module files
+[12.271s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk' for CMake config files
+[12.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[12.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[12.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[12.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[12.282s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib'
+[12.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[12.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[12.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[12.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[12.291s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/bin'
+[12.291s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[12.292s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[12.293s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/bin'
+[12.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[12.297s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[12.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[12.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[12.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[12.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[12.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johanito/Documents/phantom_ws/src/teleop_twist_joy' with build type 'ament_cmake'
+[12.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johanito/Documents/phantom_ws/src/teleop_twist_joy'
+[12.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_control -- -j4 -l4
+[12.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_control': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control
+[12.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_description': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_description -- -j4 -l4
+[12.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/teleop_twist_joy -- -j4 -l4
+[12.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[12.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces
+[12.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_description' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_description -- -j4 -l4
+[12.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_description': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_description
+[12.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantom_control)
+[12.874s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control' for CMake module files
+[12.877s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control' for CMake config files
+[12.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_control', 'cmake_prefix_path')
+[12.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_control' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_control
+[12.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.ps1'
+[12.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.dsv'
+[12.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.sh'
+[12.889s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/lib'
+[12.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_control', 'ld_library_path_lib')
+[12.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.ps1'
+[12.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.dsv'
+[12.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.sh'
+[12.897s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/bin'
+[12.898s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/lib/pkgconfig/phantom_control.pc'
+[12.900s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/lib/python3.10/site-packages'
+[12.901s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/bin'
+[12.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.ps1'
+[12.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.dsv'
+[12.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.sh'
+[12.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.bash'
+[12.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.zsh'
+[12.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/phantom_control/share/colcon-core/packages/phantom_control)
+[12.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantom_control)
+[12.930s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control' for CMake module files
+[12.935s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control' for CMake config files
+[12.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_control', 'cmake_prefix_path')
+[12.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.ps1'
+[12.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.dsv'
+[12.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/cmake_prefix_path.sh'
+[12.956s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/lib'
+[12.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_control', 'ld_library_path_lib')
+[12.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.ps1'
+[12.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.dsv'
+[12.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/hook/ld_library_path_lib.sh'
+[12.968s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/bin'
+[12.969s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/lib/pkgconfig/phantom_control.pc'
+[12.970s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/lib/python3.10/site-packages'
+[12.972s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_control/bin'
+[12.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.ps1'
+[12.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.dsv'
+[12.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.sh'
+[12.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.bash'
+[12.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_control/share/phantom_control/package.zsh'
+[13.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/phantom_control/share/colcon-core/packages/phantom_control)
+[13.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantom_description)
+[13.074s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description' for CMake module files
+[13.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_description' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_description
+[13.078s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description' for CMake config files
+[13.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_description', 'cmake_prefix_path')
+[13.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.ps1'
+[13.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.dsv'
+[13.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.sh'
+[13.094s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/bin'
+[13.094s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/lib/pkgconfig/phantom_description.pc'
+[13.096s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/lib/python3.10/site-packages'
+[13.097s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/bin'
+[13.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.ps1'
+[13.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.dsv'
+[13.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.sh'
+[13.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.bash'
+[13.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.zsh'
+[13.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/phantom_description/share/colcon-core/packages/phantom_description)
+[13.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phantom_description)
+[13.114s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description' for CMake module files
+[13.116s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description' for CMake config files
+[13.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('phantom_description', 'cmake_prefix_path')
+[13.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.ps1'
+[13.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.dsv'
+[13.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/hook/cmake_prefix_path.sh'
+[13.127s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/bin'
+[13.128s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/lib/pkgconfig/phantom_description.pc'
+[13.129s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/lib/python3.10/site-packages'
+[13.130s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/phantom_description/bin'
+[13.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.ps1'
+[13.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.dsv'
+[13.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.sh'
+[13.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.bash'
+[13.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.zsh'
+[13.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/phantom_description/share/colcon-core/packages/phantom_description)
+[13.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/teleop_twist_joy -- -j4 -l4
+[13.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/teleop_twist_joy
+[13.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[13.449s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[13.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_custom_interfaces
+[13.455s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[13.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[13.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[13.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[13.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[13.465s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[13.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[13.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[13.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[13.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[13.472s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[13.472s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[13.473s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[13.474s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[13.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[13.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[13.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[13.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[13.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[13.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[13.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[13.495s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[13.500s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[13.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[13.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[13.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[13.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[13.509s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[13.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[13.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[13.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[13.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[13.516s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[13.516s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[13.517s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[13.518s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[13.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[13.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[13.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[13.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[13.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[13.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[13.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[13.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johanito/Documents/phantom_ws/src/DynamixelSDK/dynamixel_sdk_examples'
+[13.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[13.659s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy' for CMake module files
+[13.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/teleop_twist_joy
+[13.666s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy' for CMake config files
+[13.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[13.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[13.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[13.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[13.677s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib'
+[13.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[13.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[13.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[13.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[13.687s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/bin'
+[13.688s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[13.689s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/python3.10/site-packages'
+[13.690s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/bin'
+[13.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[13.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[13.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[13.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[13.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[13.705s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[13.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[13.710s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy' for CMake module files
+[13.714s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy' for CMake config files
+[13.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[13.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[13.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[13.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[13.724s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib'
+[13.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[13.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[13.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[13.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[13.731s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/bin'
+[13.732s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[13.732s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/python3.10/site-packages'
+[13.733s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/bin'
+[13.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[13.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[13.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[13.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[13.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[13.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[13.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk CMAKE_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib PYTHONPATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[14.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk CMAKE_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib PYTHONPATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[14.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk CMAKE_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib PYTHONPATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples
+[14.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[14.372s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples' for CMake module files
+[14.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk CMAKE_PREFIX_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/johanito/Documents/phantom_ws/install/dynamixel_sdk/lib PYTHONPATH=/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/dynamixel_sdk_examples
+[14.377s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples' for CMake config files
+[14.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[14.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[14.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[14.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[14.389s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/lib'
+[14.389s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/bin'
+[14.390s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[14.391s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[14.392s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/bin'
+[14.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[14.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[14.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[14.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[14.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[14.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[14.412s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[14.413s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples' for CMake module files
+[14.417s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples' for CMake config files
+[14.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[14.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[14.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[14.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[14.429s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/lib'
+[14.430s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/bin'
+[14.430s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[14.431s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[14.432s] Level 1:colcon.colcon_core.environment:checking '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/bin'
+[14.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[14.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[14.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[14.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[14.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[14.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johanito/Documents/phantom_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[14.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.451s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.561s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.561s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.572s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[14.574s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.577s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johanito/Documents/phantom_ws/install/local_setup.ps1'
+[14.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johanito/Documents/phantom_ws/install/_local_setup_util_ps1.py'
+[14.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johanito/Documents/phantom_ws/install/setup.ps1'
+[14.766s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johanito/Documents/phantom_ws/install/local_setup.sh'
+[14.804s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johanito/Documents/phantom_ws/install/_local_setup_util_sh.py'
+[14.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johanito/Documents/phantom_ws/install/setup.sh'
+[14.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johanito/Documents/phantom_ws/install/local_setup.bash'
+[14.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johanito/Documents/phantom_ws/install/setup.bash'
+[14.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johanito/Documents/phantom_ws/install/local_setup.zsh'
+[14.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johanito/Documents/phantom_ws/install/setup.zsh'

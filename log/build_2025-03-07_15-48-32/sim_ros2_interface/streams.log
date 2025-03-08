@@ -1,0 +1,103 @@
+[0.077s] Invoking command in '/home/johanito/Documents/phantom_ws/build/sim_ros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/sim_ros2_interface -- -j4 -l4
+[1.104s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.373s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.641s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[4.341s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.422s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.543s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.188s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.273s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[5.332s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[5.649s] -- Found pendulum_msgs: 0.20.5 (/opt/ros/humble/share/pendulum_msgs/cmake)
+[5.722s] -- Found rosgraph_msgs: 1.2.1 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+[5.813s] -- Found shape_msgs: 4.2.4 (/opt/ros/humble/share/shape_msgs/cmake)
+[5.915s] -- Found stereo_msgs: 4.2.4 (/opt/ros/humble/share/stereo_msgs/cmake)
+[6.024s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.089s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.100s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.735s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.785s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.952s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[9.083s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[9.211s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[9.272s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[9.349s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[9.478s] -- CoppeliaSim: COPPELIASIM_INCLUDE_DIR: /home/johanito/Documents/coppeliasim/programming/include
+[9.478s] -- CoppeliaSim: COPPELIASIM_ROOT_DIR: /home/johanito/Documents/coppeliasim
+[9.480s] -- Checking CoppeliaSim header version...
+[16.315s] -- CoppeliaSim headers version 4.9.0 rev6
+[16.316s] -- CoppeliaSim: COPPELIASIM_RESOURCES_DIR: /home/johanito/Documents/coppeliasim
+[16.317s] -- CoppeliaSim: COPPELIASIM_PLUGINS_DIR: /home/johanito/Documents/coppeliasim
+[16.317s] -- CoppeliaSim: COPPELIASIM_EXECUTABLES_DIR: /home/johanito/Documents/coppeliasim
+[16.318s] -- CoppeliaSim: COPPELIASIM_LIBRARIES_DIR: /home/johanito/Documents/coppeliasim
+[16.318s] -- CoppeliaSim: COPPELIASIM_ADDONS_DIR: /home/johanito/Documents/coppeliasim/addOns
+[16.319s] -- CoppeliaSim: COPPELIASIM_MANUAL_DIR: /home/johanito/Documents/coppeliasim/manual
+[16.319s] -- CoppeliaSim: COPPELIASIM_MODELS_DIR: /home/johanito/Documents/coppeliasim/models
+[16.319s] -- CoppeliaSim: COPPELIASIM_SCENES_DIR: /home/johanito/Documents/coppeliasim/scenes
+[16.320s] -- CoppeliaSim: COPPELIASIM_LUA_DIR: /home/johanito/Documents/coppeliasim/lua
+[16.320s] -- CoppeliaSim: COPPELIASIM_PYTHON_DIR: /home/johanito/Documents/coppeliasim/python
+[16.321s] -- CoppeliaSim: COPPELIASIM_EXECUTABLE: /home/johanito/Documents/coppeliasim/coppeliaSim
+[16.452s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: regex 
+[17.028s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[17.039s] -- Adding simStubsGen command...
+[17.269s] -- Reading plugin metadata...
+[22.346s] -- Plugin: simROS2
+[22.975s] -- Configuring done
+[23.437s] -- Generating done
+[23.518s] -- Build files have been written to: /home/johanito/Documents/phantom_ws/build/sim_ros2_interface
+[23.720s] [  5%] [34m[1mGenerating generated/actcli_del.cpp[0m
+[23.722s] [  5%] [34m[1mGenerating generated/actcli_new.cpp[0m
+[23.725s] [  7%] [34m[1mGenerating generated/actcli_cancelLastGoal.cpp[0m
+[23.725s] [ 10%] [34m[1mGenerating generated/actcli_sendGoal.cpp[0m
+[27.326s] [ 12%] [34m[1mGenerating generated/actsrv_action_canceled.cpp[0m
+[27.328s] [ 15%] [34m[1mGenerating generated/actsrv_action_is_active.cpp[0m
+[27.331s] [ 17%] [34m[1mGenerating generated/actsrv_action_abort.cpp[0m
+[27.333s] [ 20%] [34m[1mGenerating generated/actsrv_action_execute.cpp[0m
+[28.247s] [ 22%] [34m[1mGenerating generated/actsrv_action_is_canceling.cpp[0m
+[28.249s] [ 25%] [34m[1mGenerating generated/actsrv_action_is_executing.cpp[0m
+[28.259s] [ 27%] [34m[1mGenerating generated/actsrv_action_publish_feedback.cpp[0m
+[28.273s] [ 30%] [34m[1mGenerating generated/actsrv_action_succeed.cpp[0m
+[29.120s] [ 32%] [34m[1mGenerating generated/actsrv_del.cpp[0m
+[29.140s] [ 35%] [34m[1mGenerating generated/actsrv_new.cpp[0m
+[29.159s] [ 37%] [34m[1mGenerating generated/callbacks.cpp[0m
+[29.198s] [ 40%] [34m[1mGenerating generated/callbacks.h[0m
+[29.999s] [ 42%] [34m[1mGenerating generated/cli_call.cpp[0m
+[30.009s] [ 45%] [34m[1mGenerating generated/cli_del.cpp[0m
+[30.119s] [ 47%] [34m[1mGenerating generated/cli_new.cpp[0m
+[30.129s] [ 50%] [34m[1mGenerating generated/cli_wait.cpp[0m
+[30.947s] [ 52%] [34m[1mGenerating generated/if_const.cpp[0m
+[30.951s] [ 55%] [34m[1mGenerating generated/if_list.cpp[0m
+[30.991s] [ 57%] [34m[1mGenerating generated/if_new.cpp[0m
+[31.029s] [ 60%] [34m[1mGenerating generated/pub_del.cpp[0m
+[31.803s] [ 62%] [34m[1mGenerating generated/pub_new.cpp[0m
+[31.844s] [ 65%] [34m[1mGenerating generated/pub_publish.cpp[0m
+[31.849s] [ 67%] [34m[1mGenerating generated/srv_del.cpp[0m
+[31.959s] [ 70%] [34m[1mGenerating generated/srv_new.cpp[0m
+[32.690s] [ 72%] [34m[1mGenerating generated/sub_del.cpp[0m
+[32.798s] [ 75%] [34m[1mGenerating generated/sub_new.cpp[0m
+[33.498s] [ 75%] Built target generate_ros_code
+[33.662s] [ 77%] [34m[1mGenerating generated/stubs.cpp, generated/stubs.h, generated/plugin.h, generated/stubsPlusPlus.cpp, generated/index.json, generated/reference.html, generated/typecheck.lua[0m
+[33.791s] /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/generate.py --verbose --xml-file /home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml --gen-all /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated --lua-file /home/johanito/Documents/phantom_ws/src/sim_ros2_interface/lua/simROS2.lua
+[35.306s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/generate_lua_xml.py /home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml /home/johanito/Documents/phantom_ws/src/sim_ros2_interface/lua/simROS2.lua /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/lua.xml
+[37.137s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/merge_xml.py /home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/lua.xml /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/reference.xml
+[37.295s] xsltproc -o /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/reference.html /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/xsl/reference.xsl /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/reference.xml
+[37.564s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/generate_lua_typechecker.py /home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml /home/johanito/Documents/phantom_ws/src/sim_ros2_interface/lua/simROS2.lua /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/lua.xml /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/typecheck.lua
+[39.509s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/generate_api_index.py /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/reference.xml /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/index.json
+[41.291s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/generate_ce.py /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/reference.xml /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/ce.lua
+[43.043s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/johanito/Documents/coppeliasim/programming/include/simStubsGen -i /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/cpp/stubs.cpp -o /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/stubs.cpp
+[44.874s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/johanito/Documents/coppeliasim/programming/include/simStubsGen -i /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/cpp/stubs.h -o /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/stubs.h
+[46.668s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/johanito/Documents/coppeliasim/programming/include/simStubsGen -i /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/cpp/plugin.h -o /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/plugin.h
+[48.459s] /usr/bin/python3 /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/external/pycpp/pycpp.py -p xml_file=/home/johanito/Documents/phantom_ws/src/sim_ros2_interface/meta/callbacks.xml -P /home/johanito/Documents/coppeliasim/programming/include/simStubsGen -i /home/johanito/Documents/coppeliasim/programming/include/simStubsGen/cpp/stubsPlusPlus.cpp -o /home/johanito/Documents/phantom_ws/build/sim_ros2_interface/generated/stubsPlusPlus.cpp
+[50.740s] [35m[1mConsolidate compiler generated dependencies of target simROS2[0m
+[51.849s] [ 80%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/stubs.cpp.o[0m
+[51.855s] [ 82%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o[0m
+[51.900s] [ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/src/ros_msg_builtin_io.cpp.o[0m
+[51.901s] [ 87%] [32mBuilding CXX object CMakeFiles/simROS2.dir/generated/callbacks.cpp.o[0m
+[745.363s] gmake[2]: *** [CMakeFiles/simROS2.dir/build.make:183: CMakeFiles/simROS2.dir/src/sim_ros2_interface.cpp.o] Interrupt
+[746.016s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/simROS2.dir/all] Interrupt
+[746.107s] gmake: *** [Makefile:146: all] Interrupt
+[748.869s] Invoked command in '/home/johanito/Documents/phantom_ws/build/sim_ros2_interface' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/sim_ros2_interface -- -j4 -l4

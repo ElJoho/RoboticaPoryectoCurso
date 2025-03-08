@@ -1,0 +1,82 @@
+[0.103s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/phantom_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/phantom_description
+[0.441s] -- The C compiler identification is GNU 11.4.0
+[0.811s] -- The CXX compiler identification is GNU 11.4.0
+[0.838s] -- Detecting C compiler ABI info
+[1.237s] -- Detecting C compiler ABI info - done
+[1.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.277s] -- Detecting C compile features
+[1.279s] -- Detecting C compile features - done
+[1.291s] -- Detecting CXX compiler ABI info
+[1.752s] -- Detecting CXX compiler ABI info - done
+[1.803s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.804s] -- Detecting CXX compile features
+[1.804s] -- Detecting CXX compile features - done
+[1.820s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.645s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.995s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.078s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.237s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.257s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.295s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.668s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.678s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.026s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.126s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.286s] -- Looking for pthread.h
+[4.623s] -- Looking for pthread.h - found
+[4.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.942s] -- Found Threads: TRUE  
+[5.277s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.773s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.779s] -- Added test 'lint_cmake' to check CMake code style
+[5.780s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.789s] -- Added test 'xmllint' to check XML markup files
+[5.803s] -- Configuring done
+[5.835s] -- Generating done
+[5.844s] -- Build files have been written to: /home/johanito/Documents/phantom_ws/build/phantom_description
+[5.894s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/phantom_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/phantom_description
+[5.896s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_description -- -j4 -l4
+[6.039s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/phantom_description -- -j4 -l4
+[6.047s] Invoking command in '/home/johanito/Documents/phantom_ws/build/phantom_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_description
+[6.073s] -- Install configuration: ""
+[6.074s] -- Execute custom install script
+[6.075s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//launch/viz_launch.py
+[6.108s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/arm_hardware.xacro
+[6.139s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_arm.urdf
+[6.177s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_arm.urdf.xacro
+[6.209s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/pincher_gripper.xacro
+[6.244s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.urdf
+[6.273s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.urdf.xacro
+[6.306s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_arm.xacro
+[6.336s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//urdf/turtlebot_gripper.xacro
+[6.374s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//config/rviz_viz.rviz
+[6.408s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F10.stl
+[6.438s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F2.stl
+[6.474s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F3.stl
+[6.507s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/F4.stl
+[6.539s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/README
+[6.574s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/ax12_box.stl
+[6.606s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/mount.stl
+[6.639s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/pincher_finger.stl
+[6.674s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/pincher_finger_base.stl
+[6.704s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description//meshes/turtlebot_finger.stl
+[6.738s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/ament_index/resource_index/package_run_dependencies/phantom_description
+[6.782s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/ament_index/resource_index/parent_prefix_path/phantom_description
+[6.823s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/ament_prefix_path.sh
+[6.856s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/ament_prefix_path.dsv
+[6.898s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/path.sh
+[6.951s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/environment/path.dsv
+[6.991s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.bash
+[7.038s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.sh
+[7.101s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.zsh
+[7.168s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/local_setup.dsv
+[7.276s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.dsv
+[7.352s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/ament_index/resource_index/packages/phantom_description
+[7.409s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/cmake/phantom_descriptionConfig.cmake
+[7.481s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/cmake/phantom_descriptionConfig-version.cmake
+[7.522s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/phantom_description/share/phantom_description/package.xml
+[7.570s] Invoked command in '/home/johanito/Documents/phantom_ws/build/phantom_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/phantom_description

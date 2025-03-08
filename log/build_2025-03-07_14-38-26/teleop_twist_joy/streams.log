@@ -1,0 +1,44 @@
+[0.231s] Invoking command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/teleop_twist_joy -- -j4 -l4
+[0.671s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy[0m
+[0.842s] [ 50%] Built target teleop_twist_joy
+[0.932s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy_node[0m
+[1.006s] [100%] Built target teleop_twist_joy_node
+[1.044s] Invoked command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/teleop_twist_joy -- -j4 -l4
+[1.126s] Invoking command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/teleop_twist_joy
+[1.163s] -- Install configuration: ""
+[1.172s] -- Execute custom install script
+[1.183s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[1.184s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp
+[1.184s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h
+[1.209s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[1.219s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[1.221s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/pdp.config.yaml
+[1.222s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[1.224s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[1.224s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[1.233s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[1.237s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[1.238s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[1.238s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[1.241s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[1.242s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[1.242s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[1.243s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[1.243s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[1.244s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[1.244s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[1.245s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[1.246s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[1.246s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[1.268s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[1.269s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[1.269s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.270s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[1.271s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake
+[1.272s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[1.273s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[1.274s] -- Up-to-date symlink: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[1.316s] -- Up-to-date: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[1.335s] -- Up-to-date: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake
+[1.336s] -- Up-to-date: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake
+[1.348s] Invoked command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/teleop_twist_joy

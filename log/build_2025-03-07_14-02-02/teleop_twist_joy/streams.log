@@ -1,0 +1,111 @@
+[0.049s] Invoking command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/teleop_twist_joy
+[0.613s] -- The C compiler identification is GNU 11.4.0
+[1.087s] -- The CXX compiler identification is GNU 11.4.0
+[1.135s] -- Detecting C compiler ABI info
+[1.474s] -- Detecting C compiler ABI info - done
+[1.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.573s] -- Detecting C compile features
+[1.579s] -- Detecting C compile features - done
+[1.608s] -- Detecting CXX compiler ABI info
+[1.986s] -- Detecting CXX compiler ABI info - done
+[2.029s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.029s] -- Detecting CXX compile features
+[2.032s] -- Detecting CXX compile features - done
+[2.040s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.778s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.179s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.288s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.449s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.471s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.512s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.863s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[4.020s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.029s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.484s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.651s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.857s] -- Looking for pthread.h
+[5.338s] -- Looking for pthread.h - found
+[5.342s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.665s] -- Found Threads: TRUE  
+[5.852s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.954s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.292s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[6.688s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[6.693s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[7.121s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[7.123s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[7.477s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[7.503s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.145s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.304s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.327s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.328s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.328s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.329s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.436s] -- Found PythonExtra: .so  
+[8.784s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.784s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/johanito/Documents/phantom_ws/src/teleop_twist_joy/include>
+[8.785s] -- Configured cppcheck exclude dirs and/or files: 
+[8.825s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.825s] -- Configured cpplint exclude dirs and/or files: 
+[8.828s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.835s] -- Added test 'lint_cmake' to check CMake code style
+[8.839s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.866s] -- Added test 'uncrustify' to check C / C++ code style
+[8.866s] -- Configured uncrustify additional arguments: 
+[8.867s] -- Added test 'xmllint' to check XML markup files
+[8.882s] -- Configuring done
+[8.998s] -- Generating done
+[9.026s] -- Build files have been written to: /home/johanito/Documents/phantom_ws/build/teleop_twist_joy
+[9.082s] Invoked command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johanito/Documents/phantom_ws/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/johanito/Documents/phantom_ws/install/teleop_twist_joy
+[9.087s] Invoking command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/teleop_twist_joy -- -j4 -l4
+[9.273s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[60.021s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[62.734s] [ 50%] Built target teleop_twist_joy
+[62.937s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[77.845s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[79.224s] [100%] Built target teleop_twist_joy_node
+[79.388s] Invoked command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johanito/Documents/phantom_ws/build/teleop_twist_joy -- -j4 -l4
+[79.392s] Invoking command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/teleop_twist_joy
+[79.406s] -- Install configuration: ""
+[79.454s] -- Execute custom install script
+[79.455s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[79.485s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp
+[79.516s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h
+[79.555s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[79.587s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[79.614s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/pdp.config.yaml
+[79.644s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[79.671s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[79.707s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[79.733s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[79.764s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[79.796s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[79.827s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[79.862s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[79.893s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[79.926s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[79.958s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[79.990s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[80.025s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[80.058s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[80.089s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[80.122s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[80.152s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[80.181s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[80.213s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[80.245s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[80.274s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[80.304s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake
+[80.335s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[80.365s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[80.393s] -- Symlinking: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[80.426s] -- Installing: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[80.473s] -- Set runtime path of "/home/johanito/Documents/phantom_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""
+[80.473s] -- Installing: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake
+[80.474s] -- Installing: /home/johanito/Documents/phantom_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake
+[80.489s] Invoked command in '/home/johanito/Documents/phantom_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johanito/Documents/phantom_ws/build/teleop_twist_joy
